@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#101010">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:inputType="textPersonName"
+        android:padding="14dp"
+        android:background="#1E1E1E"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:textSize="16sp"
+        android:elevation="2dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="16dp"
+        android:padding="14dp"
+        android:background="#1E1E1E"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:textSize="16sp"
+        android:elevation="2dp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:padding="14dp"
+        android:background="#1E1E1E"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:textSize="16sp"
+        android:elevation="2dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00C8A1"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:padding="14dp"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun? Login di sini"
+        android:textColor="#00C8A1"
+        android:layout_marginTop="18dp"
+        android:textSize="14sp" />
+</LinearLayout>

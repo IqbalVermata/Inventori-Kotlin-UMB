@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#121212">
+
+    <ImageView
+        android:id="@+id/ivCartProduct"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:background="#1F1F1F"
+        android:contentDescription="Gambar Produk" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/tvCartProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Produk"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvCartProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 0"
+            android:textColor="#B0BEC5"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/tvCartQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah: 1"
+            android:textColor="#90A4AE"
+            android:textSize="13sp"
+            android:layout_marginTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="6dp">
+
+            <Button
+                android:id="@+id/btnIncreaseQty"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+"
+                android:textColor="#121212"
+                android:textStyle="bold"
+                android:backgroundTint="#00BCD4"
+                android:elevation="2dp" />
+
+            <Button
+                android:id="@+id/btnDecreaseQty"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="-"
+                android:textColor="#121212"
+                android:textStyle="bold"
+                android:backgroundTint="#00BCD4"
+                android:layout_marginStart="8dp"
+                android:elevation="2dp" />
+
+            <Button
+                android:id="@+id/btnRemoveItem"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Hapus"
+                android:textColor="#FFFFFF"
+                android:backgroundTint="#EF5350"
+                android:layout_marginStart="8dp"
+                android:elevation="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
