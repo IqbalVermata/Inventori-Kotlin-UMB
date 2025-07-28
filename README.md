@@ -5,8 +5,8 @@
 **Inventori Toko** adalah aplikasi Android sederhana berbasis **Jetpack Compose** untuk mengelola data produk, melihat detail produk, dan melakukan transaksi sederhana seperti menambah ke keranjang dan checkout.
 
 ---
-### Nama: Muhammad Rizky Pratama
-### NIM: 220320008
+### Nama: Muhamad Iqbal Saputra
+### NIM: 22030003
 ### Program Studi: Informatika
 ### Universitas: Universitas Muhammadiyah Banten
 
@@ -49,7 +49,6 @@
 - **LoginScreen** ➜ Halaman login.
 - **RegisterScreen** ➜ Halaman registrasi akun.
 - **MainScreen** ➜ Daftar produk + ringkasan keranjang.
-- **ProductDetailScreen** ➜ Detail satu produk & tombol tambah ke keranjang.
 - **CartScreen** ➜ Tampilkan isi keranjang & tombol checkout.
 - **CheckoutScreen** ➜ Rincian checkout + tombol `Bayar Sekarang`.
 
@@ -80,9 +79,6 @@ Taruh **screenshot app** di folder:
 
 **Dashboard**
 ![Main](screenshots/main_screen.png)
-
-**Detail**
-![Detail](screenshots/detail_product_screen.png)
 
 **Keranjang**
 ![Cart](screenshots/cart_screen.png)
